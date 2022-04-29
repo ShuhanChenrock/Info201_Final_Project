@@ -1,0 +1,221 @@
+Team,Player,Opponent,Position,Champion,Kills,Deaths,Assists,Creep Score,Gold Earned,Champion Damage Share,Kill Participation,Wards Placed,Wards Destroyed,Ward Interactions,Dragons For,Dragons Against,Barons For,Barons Against,Result
+UOL,Boss,GS,Top,Camille,4,5,3,188,11107,0.17,0.78,8,8,16,0,4,0,1,L
+GS,Crazy,UOL,Top,Gwen,3,1,9,217,12201,0.2,0.52,10,7,17,4,0,1,0,W
+UOL,Ahahacik,GS,Jungle,Trundle,2,4,5,156,9048,0.15,0.78,8,14,22,0,4,0,1,L
+GS,Mojito,UOL,Jungle,Talon,5,4,10,194,11234,0.23,0.65,12,8,20,4,0,1,0,W
+UOL,Nomanz,GS,Mid,Leblanc,1,3,4,216,9245,0.29,0.56,6,9,15,0,4,0,1,L
+GS,Bolulu,UOL,Mid,Twisted Fate,5,0,13,205,12737,0.25,0.78,17,1,18,4,0,1,0,W
+UOL,Argonavt,GS,Adc,Ezreal,1,5,3,202,9539,0.32,0.44,7,2,9,0,4,0,1,L
+GS,Alive,UOL,Adc,Miss Fortune,9,2,5,273,15085,0.27,0.61,15,5,20,4,0,1,0,W
+UOL,Santas,GS,Support,Amumu,1,6,4,41,6328,0.07,0.56,40,10,50,0,4,0,1,L
+GS,Zergsting,UOL,Support,Rakan,0,2,16,42,7395,0.05,0.7,36,6,42,4,0,1,0,W
+DFM,Evi,C9,Top,Gnar,1,4,2,191,8931,0.23,0.75,10,4,14,0,4,0,1,L
+C9,Fudge,DFM,Top,Irelia,1,2,4,263,11834,0.18,0.38,14,4,18,4,0,1,0,W
+DFM,Steal,C9,Jungle,Xin Zhao,1,3,1,156,8420,0.19,0.5,11,10,21,0,4,0,1,L
+C9,Blaber,DFM,Jungle,Qiyana,0,1,5,182,9464,0.1,0.38,11,14,25,4,0,1,0,W
+DFM,Aria,C9,Mid,Leblanc,1,2,0,219,9378,0.27,0.25,9,6,15,0,4,0,1,L
+C9,Perkz,DFM,Mid,Sylas,8,0,2,253,13774,0.41,0.77,10,4,14,4,0,1,0,W
+DFM,Yutapon,C9,Adc,Jhin,1,0,1,303,11579,0.24,0.5,8,3,11,0,4,0,1,L
+C9,Zven,DFM,Adc,Miss Fortune,3,0,6,299,13145,0.22,0.69,13,9,22,4,0,1,0,W
+DFM,Gaeng,C9,Support,Alistar,0,4,2,27,5451,0.08,0.5,45,6,51,0,4,0,1,L
+C9,Bulcan,DFM,Support,Leona,1,1,9,30,7332,0.09,0.77,49,8,57,4,0,1,0,W
+GS,Crazy,BYG,Top,Kennen,6,3,8,234,14529,0.31,0.82,7,14,21,2,3,1,0,W
+BYG,Pk,GS,Top,Jarvan,1,6,2,189,9150,0.16,0.33,13,12,25,3,2,0,1,L
+GS,Mojito,BYG,Jungle,Qiyana,5,2,9,204,12685,0.23,0.82,13,10,23,2,3,1,0,W
+BYG,Husha,GS,Jungle,Xin Zhao,3,3,2,177,10050,0.2,0.56,13,16,29,3,2,0,1,L
+GS,Bolulu,BYG,Mid,Ryze,0,2,7,285,12463,0.12,0.41,16,2,18,2,3,1,0,W
+BYG,Maoan,GS,Mid,Orianna,2,4,3,287,12444,0.16,0.56,18,7,25,3,2,0,1,L
+GS,Alive,BYG,Adc,Miss Fortune,5,2,5,349,15344,0.24,0.59,16,18,34,2,3,1,0,W
+BYG,Doggo,GS,Adc,Ezreal,3,2,1,382,14682,0.41,0.44,14,8,22,3,2,0,1,L
+GS,Zergsting,BYG,Support,Bard,1,0,10,22,8568,0.1,0.65,61,19,80,2,3,1,0,W
+BYG,Kino,GS,Support,Braum,0,2,5,39,7154,0.08,0.56,60,14,74,3,2,0,1,L
+UOL,Boss,DFM,Top,Jayce,4,4,3,267,14533,0.28,1,12,9,21,1,4,0,2,L
+DFM,Evi,UOL,Top,Gnar,1,2,8,239,11883,0.13,0.47,15,7,22,4,1,2,0,W
+UOL,Ahahacik,DFM,Jungle,Lee Sin,0,2,3,178,10182,0.11,0.43,21,12,33,1,4,0,2,L
+DFM,Steal,UOL,Jungle,Talon,6,1,5,209,12984,0.18,0.58,15,18,33,4,1,2,0,W
+UOL,Nomanz,DFM,Mid,Orianna,1,6,4,294,12248,0.35,0.71,14,5,19,1,4,0,2,L
+DFM,Aria,UOL,Mid,Leblanc,4,0,7,298,15251,0.36,0.58,6,10,16,4,1,2,0,W
+UOL,Argonavt,DFM,Adc,Lucian,2,4,2,284,12808,0.21,0.57,13,3,16,1,4,0,2,L
+DFM,Yutapon,UOL,Adc,Miss Fortune,7,1,6,355,17214,0.27,0.68,13,22,35,4,1,2,0,W
+UOL,Santas,DFM,Support,Rakan,0,3,6,36,7139,0.05,0.86,56,13,69,1,4,0,2,L
+DFM,Gaeng,UOL,Support,Leona,1,3,12,32,8700,0.06,0.68,67,9,76,4,1,2,0,W
+HLE,Morgan,INF,Top,Renekton,5,2,0,287,14052,0.21,0.42,12,11,23,3,1,1,0,W
+INF,Buggax,HLE,Top,Graves,3,2,3,268,12028,0.46,0.75,13,3,16,1,3,0,1,L
+HLE,Willer,INF,Jungle,Lee Sin,1,2,3,178,10013,0.09,0.33,16,8,24,3,1,1,0,W
+INF,Solidsnake,HLE,Jungle,Xin Zhao,2,3,3,177,9721,0.11,0.63,10,19,29,1,3,0,1,L
+HLE,Chovy,INF,Mid,Azir,1,2,1,295,13344,0.22,0.17,16,12,28,3,1,1,0,W
+INF,Cody,HLE,Mid,Zoe,2,3,2,224,10242,0.24,0.5,18,4,22,1,3,0,1,L
+HLE,Deft,INF,Adc,Ezreal,4,1,6,296,14853,0.43,0.83,15,12,27,3,1,1,0,W
+INF,Whitelotus,HLE,Adc,Miss Fortune,1,1,4,312,11875,0.13,0.63,19,10,29,1,3,0,1,L
+HLE,Vsta,INF,Support,Leona,1,1,5,37,7498,0.06,0.5,50,12,62,3,1,1,0,W
+INF,Ackerman,HLE,Support,Amumu,0,3,4,35,6137,0.06,0.5,47,12,59,1,3,0,1,L
+LNG,Ale,PCE,Top,Fiora,8,1,2,235,13180,0.24,0.67,5,4,9,2,1,0,0,W
+PCE,Vizicsacsi,LNG,Top,Gangplank,2,3,1,189,8931,0.3,0.6,13,2,15,1,2,0,0,L
+LNG,Tarzan,PCE,Jungle,Qiyana,4,2,5,162,9533,0.17,0.6,6,14,20,2,1,0,0,W
+PCE,Babip,LNG,Jungle,Zed,1,5,3,116,6557,0.18,0.8,4,5,9,1,2,0,0,L
+LNG,Icon,PCE,Mid,Leblanc,2,1,9,230,10241,0.41,0.73,5,5,10,2,1,0,0,W
+PCE,Tally,LNG,Mid,Galio,0,2,4,177,7300,0.2,0.8,14,2,16,1,2,0,0,L
+LNG,Light,PCE,Adc,Aphelios,1,0,3,233,10206,0.13,0.27,12,12,24,2,1,0,0,W
+PCE,Violet,LNG,Adc,Miss Fortune,2,2,2,207,8409,0.26,0.8,12,8,20,1,2,0,0,L
+LNG,Iwandy,PCE,Support,Leona,0,1,5,45,5785,0.04,0.33,34,14,48,2,1,0,0,W
+PCE,Aladoric,LNG,Support,Amumu,0,3,4,29,4859,0.07,0.8,32,2,34,1,2,0,0,L
+INF,Buggax,RED,Top,Kennen,1,1,0,295,11674,0.26,0.17,13,8,21,3,2,0,1,L
+RED,Guigo,INF,Top,Camille,2,0,9,257,14204,0.28,0.73,17,6,23,2,3,1,0,W
+INF,Solidsnake,RED,Jungle,Jarvan,1,4,3,189,9729,0.09,0.67,19,19,38,3,2,0,1,L
+RED,Aegis,INF,Jungle,Lillia,0,1,7,247,11796,0.16,0.47,15,6,21,2,3,1,0,W
+INF,Cody,RED,Mid,Sylas,0,5,3,207,9285,0.2,0.5,23,5,28,3,2,0,1,L
+RED,Grevthar,INF,Mid,Sett,5,2,6,205,11355,0.26,0.73,18,5,23,2,3,1,0,W
+INF,Whitelotus,RED,Adc,Lucian,4,3,1,303,13103,0.36,0.83,16,4,20,3,2,0,1,L
+RED,Titan,INF,Adc,Miss Fortune,7,1,5,298,15010,0.24,0.8,21,16,37,2,3,1,0,W
+INF,Ackerman,RED,Support,Nami,0,2,5,21,6744,0.09,0.83,43,18,61,3,2,0,1,L
+RED,Jojo,INF,Support,Leona,1,2,8,33,7418,0.06,0.6,49,12,61,2,3,1,0,W
+HLE,Morgan,LNG,Top,Irelia,0,4,0,374,14645,0.16,0,15,9,24,2,4,0,2,L
+LNG,Ale,HLE,Top,Jax,6,0,8,395,19128,0.28,0.78,18,12,30,4,2,2,0,W
+HLE,Willer,LNG,Jungle,Sejuani,0,4,5,220,11325,0.1,1,22,21,43,2,4,0,2,L
+LNG,Tarzan,HLE,Jungle,Qiyana,1,1,8,258,13499,0.16,0.5,12,30,42,4,2,2,0,W
+HLE,Chovy,LNG,Mid,Tryndamere,1,3,4,414,16177,0.22,1,14,23,37,2,4,0,2,L
+LNG,Icon,HLE,Mid,Gragas,2,1,10,359,15853,0.24,0.67,10,1,11,4,2,2,0,W
+HLE,Deft,LNG,Adc,Ezreal,3,4,1,381,15994,0.43,0.8,23,6,29,2,4,0,2,L
+LNG,Light,HLE,Adc,Miss Fortune,7,2,6,419,20128,0.26,0.72,14,16,30,4,2,2,0,W
+HLE,Vsta,LNG,Support,Karma,1,3,3,35,8265,0.09,0.8,67,17,84,2,4,0,2,L
+LNG,Iwandy,HLE,Support,Rakan,2,1,13,43,10030,0.05,0.83,92,20,112,4,2,2,0,W
+C9,Fudge,GS,Top,Jarvan,4,2,12,182,11424,0.18,0.73,10,6,16,2,2,1,0,W
+GS,Crazy,C9,Top,Jayce,3,4,2,227,11123,0.35,0.56,8,5,13,2,2,0,1,L
+C9,Blaber,GS,Jungle,Taliyah,7,2,10,211,12377,0.21,0.77,11,8,19,2,2,1,0,W
+GS,Mojito,C9,Jungle,Xin Zhao,1,6,1,133,7841,0.08,0.22,7,9,16,2,2,0,1,L
+C9,Perkz,GS,Mid,Tryndamere,5,1,8,289,14548,0.17,0.59,10,5,15,2,2,1,0,W
+GS,Bolulu,C9,Mid,Sylas,3,4,5,246,11310,0.27,0.89,14,3,17,2,2,0,1,L
+C9,Zven,GS,Adc,Ezreal,6,1,12,267,14154,0.37,0.82,12,7,19,2,2,1,0,W
+GS,Alive,C9,Adc,Miss Fortune,2,4,3,248,10754,0.25,0.56,13,8,21,2,2,0,1,L
+C9,Vulcan,GS,Support,Leona,0,3,11,30,6747,0.07,0.5,52,10,62,2,2,1,0,W
+GS,Zersting,C9,Support,Thresh,0,4,5,29,5746,0.06,0.56,39,7,46,2,2,0,1,L
+BYG,Liang,UOL,Top,Jayce,5,1,4,215,12133,0.28,0.47,10,1,11,1,1,1,0,W
+UOL,Boss,BYG,Top,Wukong,4,3,2,151,8216,0.21,0.86,7,2,9,1,1,0,1,L
+BYG,Husha,UOL,Jungle,Xin Zhao,5,1,9,127,9692,0.19,0.74,6,6,12,1,1,1,0,W
+UOL,Ahahacik,BYG,Jungle,Lee Sin,0,4,3,143,7165,0.14,0.43,9,5,14,1,1,0,1,L
+BYG,Maoan,UOL,Mid,Syndra,1,3,8,194,9516,0.13,0.47,10,1,11,1,1,1,0,W
+UOL,Nomanz,BYG,Mid,Sylas,1,3,3,205,8493,0.25,0.57,3,6,9,1,1,0,1,L
+BYG,Doggo,UOL,Adc,Ezreal,8,0,4,261,12709,0.35,0.63,9,6,15,1,1,1,0,W
+UOL,Argonavt,BYG,Adc,Miss Fortune,1,5,3,184,7846,0.32,0.57,8,4,12,1,1,0,1,L
+BYG,Kino,UOL,Support,Rakan,0,2,14,37,6957,0.04,0.74,32,13,45,1,1,1,0,W
+UOL,Santas,BYG,Support,Nautilus,0,4,2,37,4985,0.07,0.29,31,4,35,1,1,0,1,L
+GS,Crazy,DFM,Top,Jayce,0,3,1,217,9273,0.31,0.5,12,2,14,0,4,0,1,L
+DFM,Evi,GS,Top,Urgot,4,1,5,194,10411,0.13,0.53,12,10,22,4,0,1,0,W
+GS,Mojito,DFM,Jungle,Lee Sin,0,4,1,149,7629,0.11,0.5,14,2,16,0,4,0,1,L
+DFM,Steal,GS,Jungle,Xin Zhao,5,1,6,157,10640,0.2,0.65,10,15,25,4,0,1,0,W
+GS,Bolulu,DFM,Mid,Azir,0,1,0,260,9831,0.24,0,13,2,15,0,4,0,1,L
+DFM,Aria,GS,Mid,Zoe,1,0,5,226,10342,0.25,0.35,15,2,17,4,0,1,0,W
+GS,Alive,DFM,Adc,Lucian,0,5,1,229,8665,0.23,0.5,11,4,15,0,4,0,1,L
+DFM,Yutapon,GS,Adc,Aphelios,4,0,10,258,13694,0.32,0.82,11,9,20,4,0,1,0,W
+GS,Zergsting,DFM,Support,Nami,2,4,0,16,6332,0.11,1,47,14,61,0,4,0,1,L
+DFM,Gaeng,GS,Support,Thresh,3,0,13,25,8059,0.09,0.94,35,4,39,4,0,1,0,W
+BYG,Liang,C9,Top,Lillia,3,4,6,283,13410,0.21,0.56,18,9,27,1,4,0,2,L
+C9,Fudge,BYG,Top,Malphite,4,2,14,259,14836,0.18,0.69,14,6,20,4,1,2,0,W
+BYG,Husha,C9,Jungle,Graves,4,6,7,267,13745,0.2,0.69,10,11,21,1,4,0,2,L
+C9,Blaber,BYG,Jungle,Lee Sin,4,3,8,242,13933,0.16,0.46,18,11,29,4,1,2,0,W
+BYG,Maoan,C9,Mid,Yone,2,5,8,279,13718,0.15,0.63,9,9,18,1,4,0,2,L
+C9,Perkz,BYG,Mid,Sylas,6,4,8,353,16803,0.27,0.54,17,5,22,4,1,2,0,W
+BYG,Doggo,C9,Adc,Miss Fortune,7,4,7,360,16722,0.36,0.88,15,17,32,1,4,0,2,L
+C9,Zven,BYG,Adc,Ezreal,9,1,5,390,19588,0.33,0.54,15,10,25,4,1,2,0,W
+BYG,Kino,C9,Support,Amumu,0,7,11,30,7551,0.08,0.69,62,7,69,1,4,0,2,L
+C9,Vulcan,BYG,Support,Leona,3,5,15,50,10167,0.06,0.69,65,20,85,4,1,2,0,W
+RED,Guigo,HLE,Top,Jax,3,5,3,199,10088,0.24,0.6,15,7,22,0,4,0,1,L
+HLE,Morgan,RED,Top,Camille,4,4,7,223,12527,0.19,0.52,11,7,18,4,0,1,0,W
+RED,Aegis,HLE,Jungle,Xin Zhao,1,5,4,165,8298,0.23,0.5,11,6,17,0,4,0,1,L
+HLE,Willer,RED,Jungle,Taliyah,4,2,9,198,11384,0.21,0.62,14,14,28,4,0,1,0,W
+RED,Grevthar,HLE,Mid,Twisted Fate,3,4,6,162,9783,0.19,0.9,12,3,15,0,4,0,1,L
+HLE,Chovy,RED,Mid,Sylas,1,0,10,261,12644,0.28,0.52,10,11,21,4,0,1,0,W
+RED,Titan,HLE,Adc,Miss Fortune,2,3,6,227,10376,0.24,0.8,15,15,30,0,4,0,1,L
+HLE,Deft,RED,Adc,Kaisa,9,2,3,272,14162,0.26,0.57,15,8,23,4,0,1,0,W
+RED,Jojo,HLE,Support,Amumu,1,4,5,30,5892,0.1,0.7,43,4,47,0,4,0,1,L
+HLE,Leona,RED,Support,Leona,3,2,10,39,7961,0.06,0.62,39,11,50,4,0,1,0,W
+INF,Buggax,PCE,Top,Gnar,13,4,1,256,16360,0.34,0.82,12,6,18,0,4,0,1,L
+PCE,Vizicsacsi,INF,Top,Jayce,4,4,4,265,12869,0.2,0.38,19,7,26,4,0,1,0,W
+INF,Solidsnake,PCE,Jungle,Lee Sin,1,6,11,181,10273,0.15,0.71,17,9,26,0,4,0,1,L
+PCE,Babip,INF,Jungle,Lillia,8,4,7,240,14521,0.23,0.71,5,13,18,4,0,1,0,W
+INF,Cody,PCE,Mid,Sylas,1,6,9,183,9754,0.22,0.59,21,2,23,0,4,0,1,L
+PCE,Tally,INF,Mid,Irelia,6,5,11,320,17194,0.25,0.81,15,6,21,4,0,1,0,W
+INF,Whitelotus,PCE,Adc,Aphelios,2,3,7,332,13620,0.22,0.53,15,5,20,0,4,0,1,L
+PCE,Violet,INF,Adc,Xayah,3,1,7,342,14369,0.24,0.48,11,8,19,4,0,1,0,W
+INF,Ackerman,PCE,Support,Rakan,0,2,12,51,7715,0.08,0.71,62,21,83,0,4,0,1,L
+PCE,Aladoric,INF,Support,Leona,0,3,15,48,8340,0.06,0.71,69,19,88,4,0,1,0,W
+RED,Guigo,LNG,Top,Kennen,0,5,1,203,8754,0.22,0.2,13,3,16,2,1,0,1,L
+LNG,Ale,RED,Top,Jayce,4,2,5,264,14251,0.33,0.6,12,4,16,1,2,1,0,W
+RED,Aegis,LNG,Jungle,Xin Zhao,1,3,1,197,9202,0.19,0.4,11,7,18,2,1,0,1,L
+LNG,Tarzan,RED,Jungle,Gragas,3,2,9,177,10271,0.19,0.8,7,15,22,1,2,1,0,W
+RED,Grevthar,LNG,Mid,Irelia,1,1,3,253,10111,0.14,0.8,16,9,25,2,1,0,1,L
+LNG,Icon,RED,Mid,Zed,2,1,0,266,11214,0.18,0.13,14,4,18,1,2,1,0,W
+RED,Titan,LNG,Adc,Miss Fortune,2,3,1,243,11052,0.37,0.6,20,5,25,2,1,0,1,L
+LNG,Light,RED,Adc,Lucian,6,0,5,300,13497,0.24,0.73,13,7,20,1,2,1,0,W
+RED,Jojo,LNG,Support,Lulu,1,3,3,14,6486,0.08,0.8,37,12,49,2,1,0,1,L
+LNG,Iwandy,RED,Support,Rakan,0,0,11,42,7168,0.07,0.73,50,17,67,1,2,1,0,W
+PCE,Vizicsacsi,HLE,Top,Renekton,0,4,0,247,9214,0.24,0,16,7,23,0,4,0,1,L
+HLE,Morgan,PCE,Top,Aatrox,4,0,6,252,12829,0.26,0.48,13,9,22,4,0,1,0,W
+PCE,Bapip,HLE,Jungle,Lillia,4,5,1,162,9729,0.37,0.71,6,11,17,0,4,0,1,L
+HLE,Willer,PCE,Jungle,Taliyah,8,2,6,187,12156,0.17,0.67,12,9,21,4,0,1,0,W
+PCE,Tally,HLE,Mid,Irelia,1,4,1,268,10772,0.15,0.29,13,5,18,0,4,0,1,L
+HLE,Chovy,PCE,Mid,Azir,3,0,4,325,13502,0.22,0.33,16,18,34,4,0,1,0,W
+PCE,Violet,HLE,Adc,Tristana,1,4,3,220,9588,0.13,0.57,12,10,22,0,4,0,1,L
+HLE,Deft,PCE,Adc,Miss Fortune,6,1,8,295,14645,0.28,0.67,18,6,24,4,0,1,0,W
+PCE,Aladoric,HLE,Support,Rakan,0,4,5,39,5861,0.12,0.71,48,7,55,0,4,0,1,L
+HLE,Vsta,PCE,Support,Amumu,0,4,14,36,7399,0.07,0.67,51,10,61,4,0,1,0,W
+C9,Fudge,UOL,Top,Gangplank,4,4,4,186,9567,0.32,0.73,9,4,13,1,3,0,0,L
+UOL,Boss,C9,Top,Camille,6,3,8,160,9939,0.21,0.74,10,4,14,3,1,0,0,W
+C9,Blaber,UOL,Jungle,Xin Zhao,1,6,10,148,8350,0.16,1,5,5,10,1,3,0,0,L
+UOL,Ahahacik,C9,Jungle,Lee Sin,3,3,12,154,9604,0.14,0.79,11,5,16,3,1,0,0,W
+C9,Perkz,UOL,Mid,Leblanc,3,4,4,197,8772,0.26,0.64,7,2,9,1,3,0,0,L
+UOL,Nomanz,C9,Mid,Sylas,6,4,9,193,11195,0.35,0.79,6,4,10,3,1,0,0,W
+C9,Zven,UOL,Adc,Miss Fortune,2,3,4,236,9735,0.2,0.55,10,3,13,1,3,0,0,L
+UOL,Argonavt,C9,Adc,Senna,2,0,16,50,8808,0.22,0.95,22,7,29,3,1,0,0,W
+C9,Vulcan,UOL,Support,Rell,1,2,8,28,5843,0.06,0.82,32,7,39,1,3,0,0,L
+UOL,Santas,C9,Support,Sion,2,1,9,184,8889,0.09,0.58,11,7,18,3,1,0,0,W
+DFM,Evi,BYG,Top,Urgot,10,0,6,257,15358,0.24,0.73,8,10,18,3,1,1,0,W
+BYG,Liang,DFM,Top,Aatrox,1,4,1,217,9660,0.12,0.5,14,4,18,1,3,0,1,L
+DFM,Steal,BYG,Jungle,Lillia,4,0,12,215,12194,0.29,0.73,13,16,29,3,1,1,0,W
+BYG,Husha,DFM,Jungle,Xin Zhao,0,7,1,167,8205,0.14,0.25,13,7,20,1,3,0,1,L
+DFM,Aria,BYG,Mid,Akali,1,1,4,267,12271,0.14,0.23,14,6,20,3,1,1,0,W
+BYG,Maoan,DFM,Mid,Sylas,2,4,1,245,11105,0.22,0.75,8,5,13,1,3,0,1,L
+DFM,Yutapon,BYG,Adc,Miss Fortune,7,1,9,338,15905,0.26,0.73,10,15,25,3,1,1,0,W
+BYG,Doggo,DFM,Adc,Ezreal,1,1,2,351,13003,0.47,0.75,16,13,29,1,3,0,1,L
+DFM,Gaeng,BYG,Support,Leona,0,2,15,36,7695,0.07,0.68,47,14,61,3,1,1,0,W
+BYG,Kino,DFM,Support,Amumu,0,6,3,30,6045,0.04,0.75,41,10,51,1,3,0,1,L
+PCE,Vizicsacsi,RED,Top,Kennen,7,1,9,243,13552,0.35,0.64,19,4,23,2,2,0,1,W
+RED,Guigo,PCE,Top,Gangplank,3,6,2,229,13179,0.33,0.56,11,6,17,2,2,1,0,L
+PCE,Babip,RED,Jungle,Nocturn,2,3,12,168,10498,0.16,0.56,3,4,7,2,2,0,1,W
+RED,Aegis,PCE,Jungle,Graves,4,5,4,176,10388,0.22,0.89,11,9,20,2,2,1,0,L
+PCE,Tally,RED,Mid,Tryndamere,8,1,10,285,15333,0.23,0.72,15,7,22,2,2,0,1,W
+RED,Grevthar,PCE,Mid,Ryze,1,5,3,247,10348,0.22,0.44,14,7,21,2,2,1,0,L
+PCE,Violet,RED,Adc,Lucian,8,4,10,245,12893,0.18,0.72,12,13,25,2,2,0,1,W
+RED,Titan,PCE,Adc,Kalista,1,4,3,246,10708,0.16,0.44,12,7,19,2,2,1,0,L
+PCE,Aladoric,RED,Support,Braum,0,0,19,38,7325,0.08,0.76,44,7,51,2,2,0,1,W
+RED,Jojo,PCE,Support,Leona,0,5,7,43,6514,0.08,0.78,34,14,48,2,2,1,0,L
+LNG,Ale,INF,Top,Wukong,8,0,1,216,13719,0.24,0.43,6,3,9,2,1,0,0,W
+INF,Buggax,LNG,Top,Jayce,1,5,0,156,6984,0.25,0.33,8,1,9,1,2,0,0,L
+LNG,Tarzan,INF,Jungle,Graves,7,1,4,174,10530,0.21,0.52,5,5,10,2,1,0,0,W
+INF,Solidsnake,LNG,Jungle,Qiyana,1,4,1,129,6778,0.22,0.67,5,4,9,1,2,0,0,L
+LNG,Icon,INF,Mid,Lissandra,3,2,7,208,9633,0.21,0.48,9,6,15,2,1,0,0,W
+INF,Cody,LNG,Mid,Leblanc,1,5,1,165,7666,0.25,0.67,12,5,17,1,2,0,0,L
+LNG,Light,INF,Adc,Miss Fortune,2,0,6,208,9692,0.3,0.38,9,12,21,2,1,0,0,W
+INF,Whitelotus,LNG,Adc,Lucian,0,4,1,196,7485,0.18,0.33,11,5,16,1,2,0,0,L
+LNG,Iwandy,INF,Support,Leona,1,0,7,29,6143,0.04,0.38,32,6,38,2,1,0,0,W
+INF,Ackerman,LNG,Support,Braum,0,3,1,28,4714,0.1,0.33,39,6,45,1,2,0,0,L
+DFM,Evi,C9,Top,Sett,3,4,10,231,13708,0.24,0.65,9,8,17,2,4,2,0,W
+C9,Fudge,DFM,Top,Jayce,2,3,8,313,14644,0.27,0.83,18,4,22,4,2,0,2,L
+DFM,Steal,C9,Jungle,Xin Zhao,5,2,8,184,13140,0.21,0.65,14,14,28,2,4,2,0,W
+C9,Blaber,DFM,Jungle,Olaf,7,4,3,225,13610,0.29,0.83,9,14,23,4,2,0,2,L
+DFM,Aria,C9,Mid,Orianna,6,1,7,362,18076,0.22,0.65,17,13,30,2,4,2,0,W
+C9,Perkz,DFM,Mid,Zoe,0,3,5,290,12201,0.2,0.42,16,7,23,4,2,0,2,L
+DFM,Yutapon,C9,Adc,Ezreal,6,2,6,331,17061,0.27,0.6,10,11,21,2,4,2,0,W
+C9,Zven,DFM,Adc,Miss Fortune,2,4,3,372,14765,0.14,0.42,12,20,32,4,2,0,2,L
+DFM,Gaeng,C9,Support,Leona,0,3,12,33,9003,0.05,0.6,64,10,74,2,4,2,0,W
+C9,Vulcan,DFM,Support,Amumu,1,6,9,23,7594,0.1,0.83,58,7,65,4,2,0,2,L
+UOL,Boss,BYG,Top,Jayce,5,6,3,256,14213,0.3,0.57,17,4,21,1,4,1,1,L
+BYG,Liang,UOL,Top,Tahm Kench,4,0,7,285,14704,0.16,0.58,13,10,23,4,1,1,1,W
+UOL,Ahahacik,BYG,Jungle,Lee Sin,3,4,3,184,11442,0.13,0.43,19,11,30,1,4,1,1,L
+BYG,Husha,UOL,Jungle,Xin Zhao,1,3,10,177,11761,0.16,0.58,7,7,14,4,1,1,1,W
+UOL,Nomanz,BYG,Mid,Orianna,5,2,4,367,16052,0.3,0.64,11,13,24,1,4,1,1,L
+BYG,Maoan,UOL,Mid,Ryze,4,4,2,356,15558,0.23,0.32,24,6,30,4,1,1,1,W
+UOL,Argonavt,BYG,Adc,Senna,1,3,9,58,9554,0.16,0.71,35,16,51,1,4,1,1,L
+BYG,Doggo,UOL,Adc,Draven,10,2,4,353,20546,0.38,0.74,15,5,20,4,1,1,1,W
+UOL,Santas,BYG,Support,Wukong,0,4,7,200,10354,0.11,0.5,16,8,24,1,4,1,1,L
+BYG,Kino,UOL,Support,Rakan,0,5,9,41,9304,0.06,0.47,49,15,64,4,1,1,1,W
