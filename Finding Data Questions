@@ -13,6 +13,7 @@ For the dataset of the game record of League of Legends, it was collected by BRA
 all in-depth statistics available for each match that others can use to find correlations between in-game statistics and wins.
 
 How many observations (rows) are in your data?
+League: 221
 
 
 How many features (columns) are in the data?
