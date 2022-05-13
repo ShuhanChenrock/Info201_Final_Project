@@ -1,4 +1,6 @@
 Where did you download the data (e.g., a web URL)?
+The Dataset are all collected from Kaggle by searching the key word "videogame". 
+The web URL for Kaggle is: https://www.kaggle.com/datasets
 1. https://www.kaggle.com/datasets/braydenrogowski/league-of-legends-worlds-2021-playin-group-stats
 2. https://www.kaggle.com/datasets/tamber/steam-video-games
 3. https://www.kaggle.com/datasets/dhruvildave/top-play-store-games?resource=download
