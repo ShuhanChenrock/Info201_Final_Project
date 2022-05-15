@@ -3,7 +3,7 @@ The Dataset are all collected from Kaggle by searching the key word "videogame".
 The web URL for Kaggle is: https://www.kaggle.com/datasets
 1.League-of-worlds dataset: https://www.kaggle.com/datasets/braydenrogowski/league-of-legends-worlds-2021-playin-group-stats
 2.steam dataset:https://www.kaggle.com/datasets/tamber/steam-video-games
-3.android dataset: https://www.kaggle.com/datasets/dhruvildave/top-play-store-games?resource=download
+3.android phone games dataset: https://www.kaggle.com/datasets/dhruvildave/top-play-store-games?resource=download
 
 How was the data collected or generated? Make sure to explain who collected the data 
 (not necessarily the same people that host the data), and who or what the data is about?
@@ -28,8 +28,12 @@ Android:15
 Steam:5
 
 What questions (from above) can be answered using the data in this dataset?
-1. For the League and Legend dataset, the gold disturbance and wining percentage could be answered using this dataset. The detailed comparison between 
-kills, deaths, assist can also be answered by the dataset, which can help to analyze what champion selection or map resource can best help team 
-to win a game.
-We can help analyze the trend of the development of video games n different platforms in the future and predidct what types of video games would be more popular
-among younger generations, and for the specific data of LOL, 
+1. For the League and Legend dataset, The detailed data of different team performance, 
+such as kills, death, and assist, of each team can help to analyze the strong and weaknesses of each team.
+It can also find the gold disturbance and wining percentage could be answered using this dataset. 
+2. The dataset of steam includes the user ID, name of the steam game, behavior name(play/ purchase) and hours of playing. Using these
+dataset, the situation of games (what game has most purchase, what game has most hour played) and
+its ratio of purchase and play can be analyzed using this dataset. Using the user ID, the user who has most purchase or most play can also be answered.
+3. The dataset of Andorid Game includes the rank (rank in particular genre), tital, total rating, average rating, installs, percent of growth, (30/60 days),
+price, category, and 5 star rating. Using these dataset, the popularity and rating percentage can be answered
+(most popular games, the lease popular games, most 5 stars game, etc). The most popularity of category can also be answered using this dataset.
