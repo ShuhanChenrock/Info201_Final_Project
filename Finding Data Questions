@@ -1,9 +1,9 @@
 Where did you download the data (e.g., a web URL)?
 The Dataset are all collected from Kaggle by searching the key word "videogame". 
 The web URL for Kaggle is: https://www.kaggle.com/datasets
-1. https://www.kaggle.com/datasets/braydenrogowski/league-of-legends-worlds-2021-playin-group-stats
-2. https://www.kaggle.com/datasets/tamber/steam-video-games
-3. https://www.kaggle.com/datasets/dhruvildave/top-play-store-games?resource=download
+1.League-of-worlds dataset: https://www.kaggle.com/datasets/braydenrogowski/league-of-legends-worlds-2021-playin-group-stats
+2.steam dataset:https://www.kaggle.com/datasets/tamber/steam-video-games
+3.android dataset: https://www.kaggle.com/datasets/dhruvildave/top-play-store-games?resource=download
 
 How was the data collected or generated? Make sure to explain who collected the data 
 (not necessarily the same people that host the data), and who or what the data is about?
@@ -28,6 +28,8 @@ Android:15
 Steam:5
 
 What questions (from above) can be answered using the data in this dataset?
-We can help analyze the trend of the development of video games n different platforms in the future and predidct what types of video games would be more popular
-among younger generations, and for the specific data of LOL, we can analyze what champion selection or map resource can best help team 
+1. For the League and Legend dataset, the gold disturbance and wining percentage could be answered using this dataset. The detailed comparison between 
+kills, deaths, assist can also be answered by the dataset, which can help to analyze what champion selection or map resource can best help team 
 to win a game.
+We can help analyze the trend of the development of video games n different platforms in the future and predidct what types of video games would be more popular
+among younger generations, and for the specific data of LOL, 
