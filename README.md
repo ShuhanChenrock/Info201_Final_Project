@@ -15,8 +15,11 @@ What other examples of data driven project have you found related to this domain
 3. This article published by BBC news talks about the rise of video gamees to become more important in our lives during the pandemic as well as collect data to identify the top games downloaded and played in the past two years. 
 [How online gaming has become a social lifeline](https://www.bbc.com/worklife/article/20201215-how-online-gaming-has-become-a-social-lifeline)
 
+4. This project tells us that Covid's blockade has made gaming and eSports more popular and the economic value is rapidly increasing. In it, data on the market value of video games in 2020 is provided.
+[How COVID-19 is taking gaming and esports to the next level](https://www.weforum.org/agenda/2020/05/covid-19-taking-gaming-and-esports-next-level/)
+
 
 What data-driven questions do you hope to answer about this domain (share at least 3)?
 
-We hope our research can help answer what type of games have the most active players, does regions/cultures affect people's game preference, and what sort of games has the most potential in the future market.
+We hope our research can help answer what type of games have the most active players, does regions/cultures affect people's game preference, whether e-sports can become a popular sport in the future, and what sort of games has the most potential in the future market.
 
