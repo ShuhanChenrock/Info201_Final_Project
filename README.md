@@ -6,7 +6,10 @@ After a short discussion, everyone in our team shared our same interest in video
 
 What other examples of data driven project have you found related to this domain (share at least 3)?
 
-We found many different types of dataset within the domain,such as the top saled video games in 2020, a specific dataset about pro players' kill/death/assisst in the 2020 Worlds Final of League of Legends, and some mobile video games with the most active platers.
+1. This data-analyzing project initiated by a group of UCLA students collect player data of the League of Legends to identify a series of researchable questions such as player performance playing champions at different positions, the number of active players throughout the day, and primary roles of each champion. 
+ [League of Legends: An Exploratory Data Analysis] (https://ucladatares.medium.com/league-of-legends-an-exploratory-data-analysis-11f6022f18be)
+ 
+2. 
 
 What data-driven questions do you hope to answer about this domain (share at least 3)?
 
