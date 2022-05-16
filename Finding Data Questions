@@ -17,15 +17,15 @@ Google Play.
 all in-depth statistics available for each match that others can use to find correlations between in-game statistics and wins.
 
 How many observations (rows) are in your data?
-League: 221
-Android games: 1771
-Steam:199999
+League-of-worlds dataset: 221
+android phone games dataset: 1771
+steam dataset:199999
 
 
 How many features (columns) are in the data?
-League: 20
-Android:15
-Steam:5
+League-of-worlds dataset: 20
+android phone games dataset:15
+steam dataset:5
 
 What questions (from above) can be answered using the data in this dataset?
 1. For the League and Legend dataset, The detailed data of different team performance, 
