@@ -23,8 +23,4 @@ list(data$`growth (60 days)`)
 
 ```
 
-filter(some_var == max(some_var, na.rm = T)) %>%
-    select(some_label)
-
-```
 
