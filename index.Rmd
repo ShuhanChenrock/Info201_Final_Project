@@ -1,0 +1,15 @@
+# Study on Android Games
+
+## Introduction
+
+### Where and how the dataset is gathered?
+
+The Dataset is collected through [Kaggle](https://www.kaggle.com/datasets) by searching the keyword *videogames*.
+The dataset of Top Games on Google Play Store was collected by **Dhruvil Dave** through **Google Play Store** directly. This dataset was gathered around *Jun 2021*,containing 100 games available in android Google Play only.
+
+### What is this study about
+
+In this study, we mainly focus on the category and the rating of each android games. For instance, 
+which category is most popular, if its popularity is relevant with the average rating, and if the growth of installment is relevant with the rating.
+
+
