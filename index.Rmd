@@ -28,6 +28,7 @@ info <- summary(data)
 summary_info <- list(info)
 summary_info$num_observations <- nrow(data)
 summary_table
+summary_info
 
 
 ```
