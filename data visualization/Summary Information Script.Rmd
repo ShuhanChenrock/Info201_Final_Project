@@ -1,0 +1,30 @@
+---
+title: "Summary Information Script"
+author: "Simon Wang"
+date: "5/20/2022"
+output: html_document
+---
+
+### Summary Table
+
+```{r setup, include=False}
+library(knitr)
+library(dplyr)
+data <- read_csv(file = 'desktop/android-games.csv')
+info <- summary(data)
+summary_info <- list(info)
+summary_info$num_observations <- nrow(data)
+summary_table
+list(data$title)
+list(data$`total ratings`)
+list(data$installs)
+list(data$`growth (30 days)`)
+list(data$`growth (60 days)`)
+
+```
+
+filter(some_var == max(some_var, na.rm = T)) %>%
+    select(some_label)
+
+```
+
