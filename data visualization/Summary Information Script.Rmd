@@ -21,11 +21,7 @@ info <- summary(data)
 summary_info <- list(info)
 summary_info$num_observations <- nrow(data)
 summary_table
-list(data$title)
-list(data$`total ratings`)
-list(data$installs)
-list(data$`growth (30 days)`)
-list(data$`growth (60 days)`)
+
 
 ```
 
