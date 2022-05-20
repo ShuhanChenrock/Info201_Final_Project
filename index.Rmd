@@ -13,3 +13,21 @@ In this study, we mainly focus on the category and the rating of each android ga
 which category is most popular, if its popularity is relevant with the average rating, and if the growth of installment is relevant with the rating.
 
 
+### Summary Table
+```{r setup, include=False}
+library(knitr)
+library(dplyr)
+data <- read_csv(file = 'desktop/android-games.csv')
+list(data$title)
+list(data$`total ratings`)
+list(data$installs)
+list(data$`growth (30 days)`)
+list(data$`growth (60 days)`)
+
+info <- summary(data)
+summary_info <- list(info)
+summary_info$num_observations <- nrow(data)
+summary_table
+
+
+```
