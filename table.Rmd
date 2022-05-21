@@ -1,0 +1,19 @@
+
+
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(kableExtra)
+library(knitr)
+library(ggplot2)
+android_games <- read.csv("https://raw.githubusercontent.com/ShuhanChenrock/Info201_Final_Project/main/android-games.csv")
+```
+
+
+```{r echo=FALSE}
+code_book<- data.frame(variable = c("title", "total ratings", "installs", "growth (30 days)", "growth (60 days)", "category", "5 star ratings", "4 star ratings", "1 star ratings"),
+                       class = c("character", "integer", "character", "double", "double", "character", "integer", "integer", "integer"),
+                       description = c("Game Title", "Total number of ratings", "Approximate Install Milestone", "Percent growth in 30 days", "Percent growth in 60 days", "Game Category", "Number of 5 star ratings", "Number of 4 star ratings", "Number of 1 star ratings")
+                       )
+code_book %>% kable(caption = "Top Games on Google Play Store", digits = 2) %>% kable_styling(latex_options = "striped")
+```
