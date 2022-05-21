@@ -4,31 +4,36 @@
 
 ### Where and how the dataset is gathered?
 
-The Dataset is collected through [Kaggle](https://www.kaggle.com/datasets) by searching the keyword *videogames*.
-The dataset of Top Games on Google Play Store was collected by **Dhruvil Dave** through **Google Play Store** directly. This dataset was gathered around *Jun 2021*,containing 100 games available in android Google Play only.
+This dataset, *Top Games on Google is  through [Kaggle](https://www.kaggle.com/datasets) by searching the keyword *videogames*.
+Dataset Top Games on Google Play Store was collected by **Dhruvil Dave** through **Google Play Store** directly. He gathered these information by collecting the information shown in the game details page.This dataset was gathered around *Jun 2021*,containing 100 games and 17 game-types categories available in in android Google Play.
 
 ### What is this study about
 
-In this study, we mainly focus on the category and the rating of each android games. For instance, 
-which category is most popular, if its popularity is relevant with the average rating, and if the growth of installment is relevant with the rating.
+In this study, we focus on the correlation relationship among the category, the rating of each android games, and the installment of each android games. To focus on the 
+which category is most popular, if its popularity is relevant with its rating (5stars rate), and if the growth of installment is relevant with the rating.
+Three charts, ,are included in order to answer these questions. The first chart focuses on . The second chart focus on . The third charts is focus on .
 
 
-### Summary Table
-```{r setup, include=False}
+### Summary information
+
+The variables we choose is category and rating.
+```{r include = FALSE}
 library(knitr)
 library(dplyr)
-data <- read_csv(file = 'desktop/android-games.csv')
-list(data$title)
-list(data$`total ratings`)
-list(data$installs)
-list(data$`growth (30 days)`)
-list(data$`growth (60 days)`)
+library(kableExtra)
+library(knitr)
+android_games <- read.csv(file = "https://raw.githubusercontent.com/ShuhanChenrock/Info201_Final_Project/main/android-games.csv")
 
-info <- summary(data)
-summary_info <- list(info)
-summary_info$num_observations <- nrow(data)
-summary_table
-summary_info
+```
 
+```{r}
+mean_total_ratings <- android_games %>% group_by(category)%>% summarise (mean_num = mean(total.ratings)) %>% arrange(mean_num)
+
+mean_total_ratings %>% kable() %>% kable_styling(latex_options = "striped")
+
+```
+
+
+```{r}
 
 ```
