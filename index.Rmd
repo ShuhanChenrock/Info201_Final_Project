@@ -25,15 +25,16 @@ library(knitr)
 android_games <- read.csv(file = "https://raw.githubusercontent.com/ShuhanChenrock/Info201_Final_Project/main/android-games.csv")
 
 ```
-
-```{r}
+#Category and rating.
+```{r echo=FALSE}
 mean_total_ratings <- android_games %>% group_by(category)%>% summarise (mean_num = mean(total.ratings)) %>% arrange(mean_num)
 
 mean_total_ratings %>% kable() %>% kable_styling(latex_options = "striped")
 
 ```
+#Total rating and 5star rating
+```{r echo=FALSE}
+mean_total_quality <- android_games %>% group_by(category)%>% summarise (mean_num = mean(X5.star.ratings)) %>% arrange(mean_num)
 
-
-```{r}
-
+mean_total_quality %>% kable() %>% kable_styling(latex_options = "striped")
 ```
