@@ -1,3 +1,8 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 # Study on Android Games
 
 ## Introduction
@@ -11,12 +16,11 @@ Dataset Top Games on Google Play Store was collected by **Dhruvil Dave** through
 
 In this study, we focus on the correlation relationship among the category, the rating of each android games, and the installment of each android games. To focus on the 
 which category is most popular, if its popularity is relevant with its rating (5stars rate), and if the growth of installment is relevant with the rating.
-Three charts, ,are included in order to answer these questions. The first chart focuses on . The second chart focus on . The third charts is focus on .
+Three charts, ,are included in order to answer these questions. The first chart illustrates the ratio between number of rating and genre, which explores which gaming genre has the most popularity. However, verifying the quality of games by merely its amount of rating is not accurate enough. Thus, we create the second chart, which focus on the quality of rating by comparing the number of 5 star rating and total rating numbers. Finally, we creates the third chart to illustrate.
 
 
-### Summary information
-
-The variables we choose is category and rating.
+### Aggregated Table
+The table listed illustrating the 4 numerical variables and their relationship with the game genre.
 ```{r include = FALSE}
 library(knitr)
 library(dplyr)
@@ -25,15 +29,40 @@ library(knitr)
 android_games <- read.csv(file = "https://raw.githubusercontent.com/ShuhanChenrock/Info201_Final_Project/main/android-games.csv")
 
 ```
-
-```{r}
-mean_total_ratings <- android_games %>% group_by(category)%>% summarise (mean_num = mean(total.ratings)) %>% arrange(mean_num)
+# Total amount of rating.
+```{r echo=FALSE}
+mean_total_ratings <- android_games %>% group_by(category)%>% summarise (Average_total_rating = mean(total.ratings)) %>% arrange(-Average_total_rating)
 
 mean_total_ratings %>% kable() %>% kable_styling(latex_options = "striped")
 
 ```
+# 5star rating
+```{r echo=FALSE}
+mean_total_quality <- android_games %>% group_by(category)%>% summarise (Average_5star_rating = mean(X5.star.ratings)) %>% arrange(-Average_5star_rating)
 
-
-```{r}
-table <- source("table1.r")
+mean_total_quality %>% kable() %>% kable_styling(latex_options = "striped")
 ```
+# Growth in 30 days
+```{r echo=FALSE}
+mean_total_growth_30_days <- android_games %>% group_by(category)%>% summarise (Average_growth_in_30_days = mean(growth..30.days.)) %>% arrange(-Average_growth_in_30_days,rm.na=TRUE)
+
+mean_total_growth_30_days %>% kable() %>% kable_styling(latex_options = "striped")
+```
+# Growth in 60 days
+```{r echo=FALSE}
+mean_total_growth_60_days <- android_games %>% group_by(category)%>% summarise (Average_growth_in_60_days = mean(growth..60.days.)) %>% arrange(-Average_growth_in_60_days,rm.na=TRUE)
+
+mean_total_growth_60_days %>% kable() %>% kable_styling(latex_options = "striped")
+```
+
+## Pertinent Observation
+In these four script, some trends can be easily discovered. Action Game possesses the highest amount of ratings and the highest 5 stars rate. However, its growth,is relatively low compared with the previous two variables, given that only at rank 15 in 30 growth and rank 4 in 60 days growth. The top growth in 30 days and 60 days are Casino Game and Board Game, which appeared to have relatively low ranking at both rating variables. 
+
+### Chart Script
+```{r}
+```
+The reason why we choose this chart to illustrate the relationship between the game genre and its total number of rating is because it allows us to view the disturbance of different genre vividly. As the chart shows, Game action has the most rating number of all game genres in Google Play store, which followed by Casual Game and Strategies Game.
+
+The reason why we choose this chart to illustrate the relationship between the total ratings and 5 star rating is because it allows us to understand the correlation relationship between these two variables. According to this chart, one question can be answered that alone with the total rating increase, the ratio of 5 star rating will also increase, meaning the game genre with more number of ratings has higher possibility to get better rating. Accompany with the previous chart, it is easy to understand that Action Game not only possesses the most number of rating, but also the highest quality of rating.
+
+The reason why we choose these two charts to illustrate the relationship between the game genre and its growth of 30 days and 60 days is because these two charts best display the mean of each game genre, which helps to identify which game genre has the fastest rate of growth compared with others. According to the charts, Casino game possesses the most growth rate of 30 days while the Board Games has the most growth rate of 60 days. Action Game lose its top in growth rate, which could be abnormal considered its high amount of rating and 5 stars comment.
