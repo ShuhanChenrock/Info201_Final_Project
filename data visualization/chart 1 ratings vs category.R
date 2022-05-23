@@ -7,16 +7,13 @@ mydata <- read_csv(url(urlfile))
 
 View(mydata)
 
+mean_total_ratings <- android_games %>% group_by(category)%>% summarise (mean_num = mean(total.ratings)) %>% arrange(mean_num)
 
-barplot(mydata$`total ratings`,
-      
 
-        ylab = "number of ratings", line = 0.9, cex.lab = 1.4,
-        xlab = "game categories",
-        ylim = c(0, 90000000),
-        names.arg = mydata$category, 
-        las = 2,
-        cex.names = 0.5,
-        main = "Which category is the most popular?")
+ggplot(mean_total_ratings, aes(x = mean_num, y = category))+
+  geom_bar(stat = "identity")+
+  labs(title = "Which category is the most popular?")
+
+
   
 
