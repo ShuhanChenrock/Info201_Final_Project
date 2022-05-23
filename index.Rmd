@@ -116,6 +116,10 @@ ggplot(sss, aes(x = avg_growth, y = category))+
   geom_boxplot() +
   ggtitle("Different categories growth in 30 days")
 
+ggplot(ssss, aes(x = avg_growth, y = category))+
+  geom_boxplot() +
+  ggtitle("Different categories growth in 60 days")
+
 ```
 
 The reason why we choose these two charts to illustrate the relationship between the game genre and its growth of 30 days and 60 days is because these two charts best display the mean of each game genre, which helps to identify which game genre has the fastest rate of growth compared with others. According to the charts, Casino game possesses the most growth rate of 30 days while the Board Games has the most growth rate of 60 days. Action Game lose its top in growth rate, which could be abnormal considered its high amount of rating and 5 stars comment.
