@@ -18,19 +18,16 @@ Total_RatingsofGames <- mydata$`total ratings`
 urlfile = "https://raw.githubusercontent.com/ShuhanChenrock/Info201_Final_Project/main/android-games.csv"
 
 
-mydata <- read_csv(url(urlfile))
-sss <- mydata %>% group_by(category) %>% summarise( avg_growth = mean(`growth (30 days)`)) %>% mutate( Percentage = (signif(avg_growth / sum(avg_growth)) * 100) )
-ssss <- mydata %>% group_by(category) %>% summarise( avg_growth = mean(`growth (60 days)`)) %>% mutate( Percentage = (signif(avg_growth / sum(avg_growth)) * 100) )
+mydata1 <- read_csv(url(urlfile))
+sss <- mydata1 %>% group_by(category) %>% summarise( avg_growth = mean(`growth (30 days)`)) %>% mutate( Percentage = (signif(avg_growth / sum(avg_growth)) * 100) )
+ssss <- mydata1 %>% group_by(category) %>% summarise( avg_growth = mean(`growth (60 days)`)) %>% mutate( Percentage = (signif(avg_growth / sum(avg_growth)) * 100) )
 
-urlfile = "https://raw.githubusercontent.com/ShuhanChenrock/Info201_Final_Project/main/android-games.csv"
 
-mydata <- read.csv(url(urlfile))
-total.ratings <- mydata$`total ratings`
+mydata2 <- read.csv(url(urlfile))
 
-mean_total_ratings <- mydata %>% group_by(category)%>% summarise (mean_num = mean(total.ratings)) %>% arrange(mean_num)
-
-categories<-unique(mydata$category)
-
+total.ratings <- mydata2$`total ratings`
+mean_total_ratings <- mydata2 %>% group_by(category)%>% summarise (mean_num = mean(total.ratings)) %>% arrange(mean_num)
+categories<-unique(mydata2$category)
 ggplot(mean_total_ratings, aes(x = mean_num, y = category))+
   geom_bar(stat = "identity")+
   labs(title = "Which category is the most popular?")
@@ -98,6 +95,7 @@ ui <- fluidPage(
                plotOutput("colPlot")
              )
            ),
+           
            h3("Why we include this chart and what we found"),
            h6("The reason why we choose this chart to illustrate the relationship between the game genre and its total number of rating is because it allows us to view the disturbance of different genre vividly. As the chart shows, Game action has the most rating number of all game genres in Google Play store, which followed by Casual Game and Strategies Game."),
            
@@ -122,7 +120,8 @@ ui <- fluidPage(
            
            ),
  
-  )
+  
+)
 )
   
 
@@ -151,30 +150,31 @@ output$info <- renderText({
   )
 })
 
-  output$pie <- renderPlotly({
-    filter_df <- mydata %>% group_by(category) %>% 
-      summarise( avg_growth = mean(`growth (30 days)`)) %>% 
-      filter(category %in% input$category) %>% 
-      mutate( Percentage = (signif(avg_growth / sum(avg_growth)) * 100) )
-    
-    plot_ly(data = filter_df, labels = ~category, values = ~avg_growth,
-            type = 'pie', sort = FALSE,
-            marker = list(colors = colors, line = list(color = "black", width = 1))) %>% 
-      layout(title = "Game genre and its growth of 30 days")
-    
-  })
-  dat_aux<-reactive({
-    dat<- mean_total_ratings %>% filter(category %in% input$show_category)
-    dat
-  })
+output$pie <- renderPlotly({
+  filter_df <- mydata %>% group_by(category) %>% 
+    summarise( avg_growth = mean(`growth (30 days)`)) %>% 
+    filter(category %in% input$category) %>% 
+    mutate( Percentage = (signif(avg_growth / sum(avg_growth)) * 100) )
   
-  output$colPlot <- renderPlot({
-    dat<-dat_aux()
-    plot<-ggplot(dat, aes(x = mean_num, y = category))+
-      geom_bar(stat = "identity")+
-      labs(title = "Which category is the most popular?")
-    plot
-  })
+  plot_ly(data = filter_df, labels = ~category, values = ~avg_growth,
+          type = 'pie', sort = FALSE,
+          marker = list(colors = colors, line = list(color = "black", width = 1))) %>% 
+    layout(title = "Game genre and its growth of 30 days")
+  
+})
+dat_aux<-reactive({
+  dat<- mean_total_ratings %>% filter(category %in% input$show_category)
+  dat
+})
+
+output$colPlot <- renderPlot({
+  dat<-dat_aux()
+  plot<-ggplot(dat, aes(x = mean_num, y = category))+
+    geom_bar(stat = "identity")+
+    labs(title = "Which category is the most popular?")
+  plot
+})
+  
   
 }
 
