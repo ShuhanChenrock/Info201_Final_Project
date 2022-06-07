@@ -1,5 +1,6 @@
 #Library loaded
 library(shiny)
+library(dplyr)
 library(shinythemes)
 library(tidyverse)
 library(readr)
@@ -8,7 +9,6 @@ library(ggrepel)
 library(tidyverse)
 library(shiny)
 library(plotly)
-
 #dataset loaded
 urlfile = "https://raw.githubusercontent.com/ShuhanChenrock/Info201_Final_Project/main/android-games.csv"
 
@@ -17,9 +17,23 @@ mydata <- read_csv(url(urlfile))
 Total_RatingsofGames <- mydata$`total ratings`
 urlfile = "https://raw.githubusercontent.com/ShuhanChenrock/Info201_Final_Project/main/android-games.csv"
 
+
 mydata <- read_csv(url(urlfile))
 sss <- mydata %>% group_by(category) %>% summarise( avg_growth = mean(`growth (30 days)`)) %>% mutate( Percentage = (signif(avg_growth / sum(avg_growth)) * 100) )
 ssss <- mydata %>% group_by(category) %>% summarise( avg_growth = mean(`growth (60 days)`)) %>% mutate( Percentage = (signif(avg_growth / sum(avg_growth)) * 100) )
+
+urlfile = "https://raw.githubusercontent.com/ShuhanChenrock/Info201_Final_Project/main/android-games.csv"
+
+mydata <- read.csv(url(urlfile))
+total.ratings <- mydata$`total ratings`
+
+mean_total_ratings <- mydata %>% group_by(category)%>% summarise (mean_num = mean(total.ratings)) %>% arrange(mean_num)
+
+categories<-unique(mydata$category)
+
+ggplot(mean_total_ratings, aes(x = mean_num, y = category))+
+  geom_bar(stat = "identity")+
+  labs(title = "Which category is the most popular?")
 
 ui <- fluidPage(
   theme = shinytheme("cyborg"),
@@ -72,8 +86,18 @@ ui <- fluidPage(
            h6("The reason why we include this pies chart is because pie chart can compare the speed of growth among different genres easily and illustrates the occupation of genre in the total growthfollowed by Game Trivia and Game Card. In this chart, it is easy to see that Game Casino occupies the biggest portion of the game growth, about 43.5%, followed by Game Trivia(20.1%) and Game Card(13.9%). It is a unexpected discovery considering the low ranking these three categories has in ranking and installment."),
            
   ),
-  tabPanel("chart3",
-           h2("Chart missing"),
+  tabPanel("Android Games Rating",
+           sidebarLayout(
+             sidebarPanel(
+               checkboxGroupInput("show_category", "category to show:",
+                                  categories, selected = categories)
+             ),
+             
+             # Show a plot of the generated distribution
+             mainPanel(
+               plotOutput("colPlot")
+             )
+           ),
            h3("Why we include this chart and what we found"),
            h6("The reason why we choose this chart to illustrate the relationship between the game genre and its total number of rating is because it allows us to view the disturbance of different genre vividly. As the chart shows, Game action has the most rating number of all game genres in Google Play store, which followed by Casual Game and Strategies Game."),
            
@@ -138,6 +162,18 @@ output$info <- renderText({
             marker = list(colors = colors, line = list(color = "black", width = 1))) %>% 
       layout(title = "Game genre and its growth of 30 days")
     
+  })
+  dat_aux<-reactive({
+    dat<- mean_total_ratings %>% filter(category %in% input$show_category)
+    dat
+  })
+  
+  output$colPlot <- renderPlot({
+    dat<-dat_aux()
+    plot<-ggplot(dat, aes(x = mean_num, y = category))+
+      geom_bar(stat = "identity")+
+      labs(title = "Which category is the most popular?")
+    plot
   })
   
 }
